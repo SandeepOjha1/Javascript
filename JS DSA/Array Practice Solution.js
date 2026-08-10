@@ -10,5 +10,5 @@ console.log("After removing the element: ", arr);  // prints the array after rem
 
 
 let unshifte = arr.unshift("July");  // Adds the element in the beginning of an array
-console.log("After adding the new element in the array: ", arr);  // prints the new array after adding new element
+console.log("After adding the new element in the array: ", arr);  // prints the new array after adding new elemt
 

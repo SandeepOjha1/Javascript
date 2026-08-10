@@ -45,3 +45,13 @@ console.log("After shift the number in an array: ", numbers); // prints [20, 30,
 let unshifte = numbers.unshift(5); // adds 5 at the beginning of the array
 console.log("After unshift the number in an array: ", numbers); // prints [5, 20, 30, 40, 50]
 
+
+
+//IndexOf Method & Include Method
+let cars = ["BMW","Mercedes","Audi","RR","Thar"];
+console.log("Original Array: ", cars);
+
+console.log("After using IndexOf Method: ", cars.indexOf("audi"));
+console.log("After using IndexOf Method: ", cars.indexOf("RR"));
+console.log("After using Include Method: ", cars.includes("SUV"));
+
