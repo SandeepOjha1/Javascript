@@ -27,3 +27,21 @@ console.log("Before adding:", colors);
 colors[5] = "Yellow"; // adding Yellow at index 5 
 console.log("After adding:", colors); // prints ["Red", "Green", "Blue", undefined, undefined, "Yellow"] because we skipped index 3 and 4
 
+// Array Methods
+//Push Method
+
+let numbers = [10,20,30,40,50];
+console.log("Original Array:", numbers);
+let pushe = numbers.push(100); // adds 100 at the end of the array 
+console.log("After push the number in an array: ", numbers); // prints [10, 20, 30, 40, 50, 100]
+console.log("The length of the array after push:", pushe); // prints 6
+
+let pope = numbers.pop();
+console.log("After pop the number in an array: ", numbers); // prints [10, 20, 30, 40, 50]
+
+let shifte = numbers.shift(); // removes the first element of the array
+console.log("After shift the number in an array: ", numbers); // prints [20, 30, 40, 50]
+
+let unshifte = numbers.unshift(5); // adds 5 at the beginning of the array
+console.log("After unshift the number in an array: ", numbers); // prints [5, 20, 30, 40, 50]
+
