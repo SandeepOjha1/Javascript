@@ -55,3 +55,13 @@ console.log("After using IndexOf Method: ", cars.indexOf("audi"));
 console.log("After using IndexOf Method: ", cars.indexOf("RR"));
 console.log("After using Include Method: ", cars.includes("SUV"));
 
+// Concat and Reverse of an array
+let numb = [1,2,3,4,5];
+let numb1 = [6,7,8,9,10];
+console.log("Original arrays: ", numb, numb1);
+let conca = numb.concat(numb1); // joins both the array numb and numb1
+console.log("After joining the arrays: ", conca);
+let rev = numb.reverse();  // reverse the joined array
+console.log("After reversing an array: ", rev);
+
+
