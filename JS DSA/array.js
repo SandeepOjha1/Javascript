@@ -65,3 +65,11 @@ let rev = numb.reverse();  // reverse the joined array
 console.log("After reversing an array: ", rev);
 
 
+// Slice method in an array
+let cols = ["Red", "Yellow", "Blue", "Black", "Voilet"];
+console.log("Original Array: ", colors);
+
+console.log("Using Slice Method: ", cols.slice());
+console.log("Using Slice Method: ", cols.slice(2));
+console.log("Using Slice Method: ", cols.slice(1,3));
+console.log("Using Slice Method: ", cols.slice(-2));
