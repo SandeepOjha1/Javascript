@@ -73,3 +73,15 @@ console.log("Using Slice Method: ", cols.slice());
 console.log("Using Slice Method: ", cols.slice(2));
 console.log("Using Slice Method: ", cols.slice(1,3));
 console.log("Using Slice Method: ", cols.slice(-2));
+
+// Splice Method in an array
+
+let ores = ["Diamond", "Iron", "Ruby", "Gold","Emerald"];
+console.log("Original Array: ", ores);
+
+console.log("Using Splice Method: ", ores.splice());
+console.log("Using Splice Method: ", ores.splice(2));
+console.log("Using Splice Method: ", ores.splice(2,1));
+console.log("Using Splice Method: ", ores.splice(1,0,"Copper"));
+
+
