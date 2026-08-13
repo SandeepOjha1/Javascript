@@ -85,3 +85,11 @@ console.log("Using Splice Method: ", ores.splice(2,1));
 console.log("Using Splice Method: ", ores.splice(1,0,"Copper"));
 
 
+// Sort in an array
+let subject = ["Hindi", "English", "Maths", "Science", "Computer"];
+console.log("Original List: ", subject);
+console.log("After Sorting: ", subject.sort()); // Prints in the ascending order according to the A to Z 
+
+let num = [10, 48, 35, 48, 60];
+console.log("After sorting: ", num.sort());  // Prints in the ascending order accroding to the 0 to 9
+
