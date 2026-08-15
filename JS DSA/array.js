@@ -93,3 +93,17 @@ console.log("After Sorting: ", subject.sort()); // Prints in the ascending order
 let num = [10, 48, 35, 48, 60];
 console.log("After sorting: ", num.sort());  // Prints in the ascending order accroding to the 0 to 9
 
+
+
+//Array References 
+let arr = ['a','b','c'];
+let arrCopy = arr; //Now the value of arr and arrCopy are equal if any changes made in the arr or arrCopy it will automatically change in other array.
+
+console.log(arr == arrCopy);
+console.log("Pushing a value in arr: ", arr.push('x'));
+console.log("New array: ", arr);
+console.log("New arrCopy: ", arrCopy);
+
+console.log("Poping a element from the array: ", arr.pop());
+console.log("New array: ", arr);
+console.log("New arrCopy: ", arrCopy);
