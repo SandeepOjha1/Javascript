@@ -38,3 +38,5 @@ console.log("Tic-Toe Game State: ", tic_toe);
 console.log("Accessing 0 index array to push another element: ",tic_toe[0] );
 console.log("After pushing another element on 0 index array: ", tic_toe[0][1]= 'O'); // Pushed an element in 0 index array and pushed the new element O in the middle of the 0 index array
 console.log("Tic-Toe Game State: ", tic_toe);
+
+

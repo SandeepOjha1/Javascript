@@ -112,5 +112,7 @@ console.log("New arrCopy: ", arrCopy);
 //Nested array
 let numbe = [ [1,2], [3,4], [5,6] ];
 console.log(numbe);
+console.log(numbe[0]);
+console.log(numbe[1][1] = 1);
 
 
