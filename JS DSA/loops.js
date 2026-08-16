@@ -74,3 +74,23 @@ while(im <= 10){
     console.log(im);
     im++;
 }
+
+// Loops with array 
+let fruits = ["Mango", "Banana","Apple","Grapes","Papaya"];
+// for (let i = 0; i < fruits.length; i++){
+//     console.log(i, fruits[i]);
+// }
+
+for (let i= fruits.length-1; i>0; i--){
+    console.log(i, fruits[i]);
+}
+
+
+// Nested loops with Nested arrays
+let heroes = [ ['Ironman','SpiderMan','Batman', 'Black Panther','Wanda'] ];
+for (let i = 0; i <heroes.length; i++){
+    console.log(`List #${i} `);
+    for (let j = 0; j <heroes[i].length; j++){
+        console.log(heroes[i][j]);
+    }
+}
