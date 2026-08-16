@@ -107,3 +107,10 @@ console.log("New arrCopy: ", arrCopy);
 console.log("Poping a element from the array: ", arr.pop());
 console.log("New array: ", arr);
 console.log("New arrCopy: ", arrCopy);
+
+
+//Nested array
+let numbe = [ [1,2], [3,4], [5,6] ];
+console.log(numbe);
+
+
