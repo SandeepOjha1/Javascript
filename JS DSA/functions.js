@@ -56,3 +56,25 @@ function average(a, b, c) {
     console.log("Average of 3 numbers: ", averagenumb);
 }
 average(1, 5, 9);
+
+
+// Create a function to print the table
+
+function table(n) {
+    for (let i = n; i <= n * 10; i += n) {
+        console.log(`Table of ${n}`, i);
+    }
+}
+
+table(5);
+
+// Using Return 
+function sum(a, b, c) {
+    let s = a + b + c;
+    console.log("Sum: ", s);
+    return a + b + c;
+
+}
+
+sum(10, 20, 30);
+
