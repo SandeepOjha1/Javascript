@@ -79,3 +79,22 @@ function sum(a, b, c) {
 sum(10, 20, 30);
 
 
+// this function 
+
+const stu = {
+    name: "Sandeep",
+    age: 21,
+    eng: 70,
+    city: "Gwalior",
+    degree: 8,
+    science: 90,
+    getAvg(){
+        let avg = (this.eng + this.science + this.degree)/ 3; // this is use to access any key and its value.
+        console.log(avg);
+    
+    }
+}
+
+stu.getAvg();
+
+
