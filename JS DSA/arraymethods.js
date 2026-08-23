@@ -49,3 +49,19 @@ let numss = [...even, ...odd]; /// ... here 3 dots are spread function
 console.log(numss);
 
 
+//REST Function
+
+function sum(...args){
+    for (let i = 0; i < args.length; i++){
+        console.log("You gave us: ", args[i]);
+    }
+}
+
+sum(1);
+
+// Destructing
+let names = ["ram","shyam","krish","trish","cram","prajh"];
+
+let [tom,pom,com,...som] = names;
+
+console.log(...som);   
