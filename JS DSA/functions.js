@@ -88,13 +88,41 @@ const stu = {
     city: "Gwalior",
     degree: 8,
     science: 90,
-    getAvg(){
-        let avg = (this.eng + this.science + this.degree)/ 3; // this is use to access any key and its value.
+    getAvg() {
+        let avg = (this.eng + this.science + this.degree) / 3; // this is use to access any key and its value.
         console.log(avg);
-    
+
     }
 }
 
 stu.getAvg();
 
 
+// Try and Catch Statements
+
+let a = 10;
+try {
+    if (a <= 10) {
+        console.log("meow");
+    }
+} catch (e) {
+    console.log(e);
+}
+
+
+// Arrow Function 
+
+const rol = (a, b) => {
+    console.log(a + b);
+};
+
+
+// Set Timeout
+
+console.log("Hello");
+
+setTimeout(() => {
+    console.log("What the hell");
+}, 4000);
+
+console.log("Hell Naw")
