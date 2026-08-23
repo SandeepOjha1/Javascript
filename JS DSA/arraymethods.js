@@ -47,3 +47,5 @@ let even = [0, 2, 4, 6, 8];
 
 let numss = [...even, ...odd]; /// ... here 3 dots are spread function
 console.log(numss);
+
+
