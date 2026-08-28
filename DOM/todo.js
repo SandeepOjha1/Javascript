@@ -17,12 +17,11 @@ btn.addEventListener("click", function () {
   inp.value = "";
 });
 
-// Delete Task
-let btns = document.querySelectorAll(".delete");
+ul.addEventListener("click", function(event){
+  if(event.target.nodeName = "BUTTON"){
+    let listItem = event.target.parentElement;
+    listItem.remove();
+    console.log("button clicked");
+  }
+});
 
-for (let btn of btns) {
-  btn.addEventListener("click", function () {
-    let pr = this.parentElement;
-    pr.remove();
-  });
-}
