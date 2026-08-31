@@ -96,17 +96,49 @@
 
 // Await 
 
-function getNum() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            let num = Math.floor(Math.random() * 10 ) + 1;
-            console.log(num);
-            resolve();
-        }, 1000);
-    });
-}
+// function getNum() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let num = Math.floor(Math.random() * 10 ) + 1;
+//             console.log(num);
+//             resolve();
+//         }, 1000);
+//     });
+// }
 
-async function demos(){
-    getNum();
-}
+// async function demos(){
+//     getNum();
+// }
+
+
+// API Fetching
+
+// let url = "https://catfact.ninja/fact";
+
+// fetch(url)
+//     .then((res) => {
+//         console.log(res);
+//         return res.json();
+//     })
+//     .then((data) => {
+//         console.log(data);
+//     })
+//     .catch((err) => {
+//         console.log(err);
+//     });
+
+// let url = "https://catfact.ninja/fact";
+// async function getFacts() {
+//     try {
+//         let res = await fetch(url);
+//         let data = await res.json();
+//         console.log(data.fact);
+//     } catch (e) {
+//         console.log("error - ", e);
+//     }
+
+//     console.log("bye");
+// }
+
+
 
