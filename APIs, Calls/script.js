@@ -1,54 +1,54 @@
-// // function hello(){
-// //     console.log("inside hello func");
-// //     console.log("Hello");
-// // }
+// function hello(){
+//     console.log("inside hello func");
+//     console.log("Hello");
+// }
 
-// // function demo() {
-// //     console.log("calling hellp func");
-// //     console.log("demo");
-// // }
+// function demo() {
+//     console.log("calling hellp func");
+//     console.log("demo");
+// }
 
-// // console.log("calling demo func");
-// // demo();
-// // console.log("Bye");
-
-
-// // function one(){
-// //     return 1;
-// // }
-
-// // function two(){
-// //     return one() + one();
-// // }
-
-// // function three(){
-// //     let ans = two() + one();
-// //     console.log(ans);
-// // }
-
-// // two();
-// // one();
-// // three();
-
-// // // JS Single Threaded
-// // let a = 25;
-// // console.log(a);
-// // let b = 48;
-// // console.log(b);
-// // console.log(a+b);
-
-// // setTimeout(() => {
-// //     console.log("Meow");
-// // }, 2000);
-
-// // setTimeout(() => {
-// //     console.log("BIW");
-// // }, 2000);
-
-// // console.log("Hey Kitty");
+// console.log("calling demo func");
+// demo();
+// console.log("Bye");
 
 
-// //Callback Hell
+// function one(){
+//     return 1;
+// }
+
+// function two(){
+//     return one() + one();
+// }
+
+// function three(){
+//     let ans = two() + one();
+//     console.log(ans);
+// }
+
+// two();
+// one();
+// three();
+
+// // JS Single Threaded
+// let a = 25;
+// console.log(a);
+// let b = 48;
+// console.log(b);
+// console.log(a+b);
+
+// setTimeout(() => {
+//     console.log("Meow");
+// }, 2000);
+
+// setTimeout(() => {
+//     console.log("BIW");
+// }, 2000);
+
+// console.log("Hey Kitty");
+
+
+//Callback Hell
 
 // const h1 = document.querySelector("h1");
 
@@ -141,4 +141,17 @@
 // }
 
 
+
+
+let url = "https://catfact.ninja/fact";
+
+async function getFacts() {
+  try {
+    let res = await axios.get(url);
+    let data = await res.json();
+    console.log(data.fact); 
+  } catch (e) {
+    console.log("error - ", e);
+  }
+}
 
